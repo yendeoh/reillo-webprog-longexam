@@ -1,11 +1,23 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    color-scheme: dark
+  }
+
   body {
-    @apply bg-zinc-100 text-zinc-900 antialiased;
+    @apply antialiased text-white;
+    background: 
+      radial-gradient(circle at top, rgb(254,210, 17,0.08), transparent 30%),
+      linear-gradient(to bottom, #1e275f, #11183d 45%, #0b1029 100%);
   }
 
   #root {
     @apply min-h-screen;
+  }
+
+  ::selection {
+    background: #FED211;
+    color: #11183d;
   }
 }

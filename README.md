@@ -2,7 +2,7 @@
 
 This repository contains a React frontend built with Vite, React Router, and Tailwind CSS.
 
-The current project is **BulldogEx Shop**, a low-fidelity e-commerce wireframe for campus products. It includes a full-width hero banner, product catalog cards, product detail pages, store information pages, shared layouts, and authentication screens.
+The current project is **Bulldoggy Shop**, a low-fidelity e-commerce wireframe for campus products. It includes a full-width hero banner, product catalog cards, product detail pages, store information pages, shared layouts, and authentication screens.
 
 ## Tech Stack
 
@@ -155,7 +155,7 @@ long-exam1/
         │   ├── react.svg
         │   ├── vite.svg
         │   ├── img/
-        │   │   ├── nu_bulldogex_banner.jpg
+        │   │   ├── nu_bulldoggy_banner.jpg
         │   │   └── nubdexchange_logo.png
         │   └── styles/
         │       └── index.css

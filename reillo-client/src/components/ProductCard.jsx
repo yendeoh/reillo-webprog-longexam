@@ -4,8 +4,12 @@ const ProductCard = ({ product, index }) => {
   return (
     <article className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-4">
       <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-200">
-        <div className="flex h-16 w-16 items-center justify-center border-2 border-zinc-300 bg-zinc-100 text-[10px] font-semibold uppercase tracking-[0.2em] text-zinc-500">
-          Item
+        <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] border border-white/10 bg-[#0b1029] overflow-hidden">
+          <img
+            src={product.image}
+            alt={product.title}
+            className="h-[30rem] w-full object-cover"
+          />
         </div>
       </div>
       <p className="mt-4 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
