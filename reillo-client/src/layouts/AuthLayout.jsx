@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+import banner from '../assets/img/banner-nu-manila.webp';
  
 const AuthLayout = () => {
   return (
@@ -13,7 +14,7 @@ const AuthLayout = () => {
           </div>
         </div>
  
-        <main className="flex items-center bg-[#0f1533] px-6 py-10 sm:px-10 lg:px-16">
+        <main className="flex items-center bg-[#0f1533] bg-cover bg-center bg-no-repeat px-6 py-10 sm:px-10 lg:px-16" style={{ backgroundImage: `url(${banner})` }}>
           <div className="mx-auto w-full max-w-md rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-2xl shadow-black/30 backdrop-blur">
             <Outlet />
           </div>

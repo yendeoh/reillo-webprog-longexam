@@ -82,7 +82,7 @@ const HomePage = () => {
 
                 <div className="grid gap-4 md:grid-cols-3">
                     <article className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-4">
-                        <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-200">
+                        <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-900">
                             <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
                         </div>
                         <h3 className="mt-4 text-lg font-semibold text-zinc-900">Daily Essentials</h3>
