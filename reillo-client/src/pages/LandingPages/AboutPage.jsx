@@ -1,5 +1,8 @@
 import Button from '../../components/Button';
 import logo from '../../assets/img/nubdexchange_logo.png';
+import { backpack } from '../../assets/img/daily_essentails';
+import { sticker_one } from '../../assets/img/study_supplies';
+import { shirt, hoodie } from '../../assets/img/campus_apparel';
 
 const AboutPage = () => {
   return (
@@ -106,18 +109,10 @@ const AboutPage = () => {
               Category Grid
             </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
-              </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
-              </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
-              </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
-              </div>
+              <img src={backpack} alt="Daily Essentials" className="aspect-square rounded-[1.25rem] object-cover" />
+              <img src={sticker_one} alt="Study Supplies" className="aspect-square rounded-[1.25rem] object-cover" />
+              <img src={shirt} alt="Campus Apparel" className="aspect-square rounded-[1.25rem] object-cover" />
+              <img src={hoodie} alt="Campus Apparel" className="aspect-square rounded-[1.25rem] object-cover" />
             </div>
             <Button to="/products" className="mt-5">View Products</Button>
           </div>

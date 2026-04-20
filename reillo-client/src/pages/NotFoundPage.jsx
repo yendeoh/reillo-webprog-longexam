@@ -16,7 +16,6 @@ const NotFoundPage = () => {
           </p>
           <div className="mt-6 flex gap-3">
             <Button to="/">Back Home</Button>
-            <Button to="/products">View Products</Button>
           </div>
         </div>
       </section>
@@ -33,12 +32,6 @@ const NotFoundPage = () => {
               <h3 className="font-semibold text-zinc-900">Home</h3>
               <p className="mt-1 text-sm text-zinc-600">Return to the homepage</p>
               <Button to="/" className="mt-3">Go Home</Button>
-            </div>
-            
-            <div className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-4">
-              <h3 className="font-semibold text-zinc-900">Products</h3>
-              <p className="mt-1 text-sm text-zinc-600">Browse all featured store items</p>
-              <Button to="/products" className="mt-3">View Products</Button>
             </div>
           </div>
         </div>
